@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Tanmay Baranwal - Portfolio</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdn.jsdelivr.net/npm/three@0.132.2/build/three.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" type='text/css' href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css" />
+    <link
+    href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css"
+    rel="stylesheet"
+/>
+        
+</head>
+<body>
+
+<header>
+    <div class="container">
+        <nav>
+            <div class="logo">Tanmay</div>
+            <div class="nav-links">
+                <a href="#home">Home</a>
+                <a href="#about">About</a>
+                <a href="#education">Education</a>
+                <a href="#skills">Skills</a>
+                <a href="#projects">Projects</a>
+                <a href="#contact">Contact</a>
+            </div>
+            <div class="hamburger">
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
+        </nav>
+    </div>
+</header>
+
+<section class="hero" id="home">
+    <div class="container" style="display: flex; align-items: center;">
+        <div class="hero-content">
+            <h3 class="hero-subtitle">Hello, I'm</h3>
+            <h1 class="hero-title">Tanmay <span>Baranwal</span></h1>
+            <p class="hero-description">Passionate Computer Science student pursuing dual degrees in software engineering and data analytics, curious and hungry to learn new technologies and build innovative solutions.</p>
+            <div class="cta-buttons">
+                <a href="#projects" class="btn btn-primary">View Projects</a>
+                <a href="#contact" class="btn btn-secondary">Contact Me</a>
+            </div>
+        </div>
+        <!-- <div class="hero-image-container">
+            <div class="hero-image">
+                <div class="photo-upload" id="heroPhotoUpload">
+                    <div class="upload-icon">📷</div>
+                    <div class="upload-text">Click to add your profile photo</div>
+                </div>
+            </div>
+        </div> -->
+    </div>
+</section>
+
+<section class="section about" id="about">
+    <div class="container">
+        <h2 class="section-title">About Me</h2>
+        <div class="about-container">
+            <div class="about-image">
+                <div class="photo-upload" id="aboutPhotoUpload">
+                    <!-- <div class="upload-icon">📷</div>
+                    <div class="upload-text">Click to add a photo of yourself</div> -->
+                    <div class="img"><img src="pp.jpg" alt=""></div>
+                </div>
+            </div>
+            <div class="about-content">
+                <h3>Who am I?</h3>
+                <p>I'm Tanmay Baranwal, an ambitious computer science student with a passion for technology and innovation. Currently, I'm pursuing two prestigious degrees simultaneously - B.Sc in Computer Science and Data Analytics from IIT Patna and B.Tech in Computer Science and Engineering from SHEAT College of Engineering, Varanasi</p>
+                <p>My academic journey reflects my dedication to mastering both the engineering and analytical aspects of computer science. I'm particularly interested in machine learning, data science, and software development, with a goal to create impactful solutions that address real-world challenges.</p>
+                <p>Outside of academics, I enjoy participating in hackathons, contributing to open-source projects, and staying updated with the latest technological advancements. I believe in continuous learning and pushing the boundaries of what's possible through technology.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Education Section here --> 
+
+<section class="section education" id="education">
+    <div class="container">
+        <h2 class="section-title">Education</h2>
+        <div class="education-container">
+
+            <div class="education-card">
+                <div class="education-header">
+                    <div>
+                        <h3 class="education-title">Bachelor of Science (B.Sc)</h3>
+                        <h4 class="education-subtitle">Computer Science and Data Analytics</h4>
+                        <p class="education-institute">Indian Institute of Technology, Patna</p>
+                    </div>
+                    <div class="education-date">2024 - 2027</div>
+                </div>
+                <p class="education-description">Specializing in data analytics, machine learning, and statistical computing. Working on research projects involving big data analysis and predictive modeling techniques. The program offers in-depth knowledge of data science tools, statistical methods, and analytical frameworks used in industry and research.</p>
+            </div>
+
+            <div class="education-card">
+                <div class="education-header">
+                    <div>
+                        <h3 class="education-title">Bachelor of Technology (B.Tech)</h3>
+                        <h4 class="education-subtitle">Computer Science and Engineering</h4>
+                        <p class="education-institute">SHEAT College of Engineering</p>
+                    </div>
+                    <div class="education-date">2023 - 2027</div>
+                </div>
+                <p class="education-description">Focusing on core computer science principles, software engineering, and advanced programming concepts. Participating in various technical clubs and projects to enhance practical skills. The curriculum includes subjects like Data Structures, Algorithms, Database Management Systems, Computer Networks, and Software Engineering.</p>
+            </div>
+            
+        </div>
+    </div>
+</section>
+
+<!-- Skills Section here -->
+
+<section class="section skills" id="skills">
+    <div class="container">
+        <h2 class="section-title">Skills & Expertise</h2>
+        <div class="skills-container">
+            <div class="skill-card">
+                <!-- <div class="skill-icon">💻</div> -->
+            <div class="skill-icon">
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg" /></div>
+                <h3 class="skill-title">Python</h3>
+                <p class="skill-description">Solid understanding of Python fundamentals, including variables, loops, functions, and object-oriented programming. Confident in writing clean and logical code for problem-solving and basic projects</p>
+            </div>
+
+            <div class="skill-card">
+                <div class="skill-icon">
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg" /></div>
+                <h3 class="skill-title">JavaScript</h3>
+                <p class="skill-description">EComfortable with JavaScript fundamentals and DOM manipulation. Capable of building interactive web pages and integrating 3D elements using libraries like Three.js for enhanced visual experiences.</p>
+            </div>
+
+            <div class="skill-card">
+                <div class="skill-icon">
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/c/c-original.svg" /></div>
+                <h3 class="skill-title">C Programming</h3>
+                <p class="skill-description">Good grasp of C programming fundamentals, including data types, control structures, functions, and pointers. Able to write efficient code for basic programs and algorithmic problem-solving.</p>
+            </div>
+
+                        <div class="skill-card">
+                <div class="skill-icon">
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/azuresqldatabase/azuresqldatabase-original.svg" /></div>
+                <h3 class="skill-title">SQL</h3>
+                <p class="skill-description">Proficient in writing SQL queries to create, read, update, and delete data. Comfortable with database design, table relationships, and performing joins, filters, and aggregations.</p>
+            </div>
+
+            <div class="skill-card">
+                <div class="skill-icon">
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/django/django-plain.svg" /></div>
+                <h3 class="skill-title">Django</h3>
+                <p class="skill-description">Familiar with Django framework for building dynamic web applications. Able to create models, views, templates, and work with databases to develop functional backend systems.</p>
+            </div>
+
+            <div class="skill-card">
+                <div class="skill-icon">
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg" /></div>
+                <h3 class="skill-title">React</h3>
+                <p class="skill-description">Skilled in building responsive and component-based user interfaces using React. Familiar with props, state, hooks, and integrating APIs for dynamic web applications.</p>
+            </div>
+
+            <div class="skill-card">
+                <div class="skill-icon">
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/git/git-original.svg" /></div>
+                <h3 class="skill-title">Git</h3>
+                <p class="skill-description">Comfortable using Git for version control, including committing changes, branching, merging, and collaborating on projects through platforms like GitHub.</p>
+            </div>
+
+            <div class="skill-card">
+                <div class="skill-icon"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/github/github-original.svg" /></div>
+                <h3 class="skill-title">GitHub</h3>
+                <p class="skill-description">Experienced in using GitHub for hosting and managing code repositories, collaborating on projects, and tracking changes through commits, pull requests, and issues.</p>
+            </div>
+
+            <div class="skill-card">
+                <div class="skill-icon"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg" /></div>
+                <h3 class="skill-title">HTML5</h3>
+                <p class="skill-description">Proficient in HTML5 for structuring modern, semantic, and accessible web pages. Experienced with multimedia elements, forms, and responsive design fundamentals.</p>
+            </div>
+
+            <div class="skill-card">
+                <div class="skill-icon"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original.svg" /></div>
+                <h3 class="skill-title">CSS</h3>
+                <p class="skill-description">Skilled in CSS for styling web pages with layouts, colors, fonts, and animations. Experienced in making responsive designs that work well across devices.</p>
+            </div>
+            
+
+        </div>
+    </div>
+</section>
+
+<!-- Projects Section here -->  
+
+<section class="section projects" id="projects">
+    <div class="container">
+        <h2 class="section-title">Projects</h2>
+        <div class="projects-container">
+
+            <div class="project-card">
+                <div class="project-image"><img src="bg.png" alt=""></div>
+                <div class="project-content">
+                    <h3 class="project-title">Bubble Game</h3>
+                    <p class="project-description">Developed an interactive bubble game using JavaScript and DOM manipulation, featuring dynamic animations and user-driven gameplay for an engaging experience.</p>
+                    <div class="project-tags">
+                        <span class="project-tag">HTML</span>
+                        <span class="project-tag">CSS</span>
+                        <span class="project-tag">JavaScript</span>
+                        <span class="project-tag">DOM</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="https://raw.githack.com/iamtanmaybaranwal/Bubble-Game/refs/heads/main/index.html" target="_blank" class="project-link demo">Live Demo</a>
+                        <a href="https://github.com/iamtanmaybaranwal/Bubble-Game" target="_blank" class="project-link code">View Code</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <div class="project-image"><img src="Screenshot (145).png" alt=""></div>
+                <div class="project-content">
+                    <h3 class="project-title">WizardZ Landing Page</h3>
+                    <p class="project-description">Built an animated landing page using HTML, CSS, JavaScript, and GSAP for smooth, eye-catching animations. Currently designed for desktop, with responsiveness to be added.</p>
+                    <div class="project-tags">
+                        <span class="project-tag">HTML</span>
+                        <span class="project-tag">CSS</span>
+                        <span class="project-tag">JavaScript</span>
+                        <span class="project-tag">GSAP</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="https://raw.githack.com/iamtanmaybaranwal/Animated-Landing-Page/refs/heads/main/index.html" target="_blank" class="project-link demo">Live Demo</a>
+                        <a href="https://github.com/iamtanmaybaranwal/Animated-Landing-Page" target="_blank" class="project-link code">View Code</a>
+                    </div>
+                </div>
+            </div>
+            <div class="project-card">
+                <div class="project-image"><img src="Screenshot (146).png" alt=""></div>
+                <div class="project-content">
+                    <h3 class="project-title">Sheat-Bazaar Grocery Website</h3>
+                    <p class="project-description">Created Sheat Bazaar, an interactive grocery website optimized for desktop, using HTML, CSS, and JavaScript, offering smooth navigation and essential e-commerce features.</p>
+                    <div class="project-tags">
+                        <span class="project-tag">HTML</span>
+                        <span class="project-tag">CSS</span>
+                        <span class="project-tag">JavaScript</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="https://raw.githack.com/abhishekkjaiml/SheatBazaar.com/refs/heads/main/Index.html" target="_blank" class="project-link demo">Live Demo</a>
+                        <a href="https://github.com/abhishekkjaiml/SheatBazaar.com" target="_blank" class="project-link code">View Code</a>
+                    </div>
+                </div>
+            </div>
+            <div class="project-card">
+                <div class="project-image"><img src="Screenshot (147).png" alt=""></div>
+                <div class="project-content">
+                    <h3 class="project-title">Amazon-Clone</h3>
+                    <p class="project-description">Built an Amazon clone using HTML and CSS, focusing on layout and design to replicate the look and feel of the original site. Interactivity to be added.</p>
+                    <div class="project-tags">
+                        <span class="project-tag">HTML</span>
+                        <span class="project-tag">CSS</span>
+                        <span class="project-tag">JavaScript</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="https://raw.githack.com/iamtanmaybaranwal/Amazon-Clone/refs/heads/main/index.html" target="_blank" class="project-link demo">Live Demo</a>
+                        <a href="https://github.com/iamtanmaybaranwal/Amazon-Clone" target="_blank" class="project-link code">View Code</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="section contact" id="contact">
+    <div class="container">
+        <h2 class="section-title">Get In Touch</h2>
+        <div class="contact-container">
+            <div class="contact-info">
+                <h3>Let's Connect</h3>
+                <p>I'm always open to discussing new projects, creative ideas, or opportunities to be part of your vision. Feel free to reach out to me through any of the following channels.</p>
+
+                <div class="contact-links">
+
+                <div class="social-links">
+                <a href="https://www.linkedin.com/in/tanmay-baranwal/" target="_blank" class="social-link">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/linkedin/linkedin-original.svg" />
+                </a>
+
+                <a href="http://github.com/iamtanmaybaranwal/" target="_blank" class="social-link">
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/github/github-original.svg" />
+                </a>
+                
+                <a href="mailto:baranwaltanmay16@gmail.com" class="social-link">
+                   <i class="ri-mail-line"></i>
+                </a>
+
+                    <!-- <a href="mailto:tanmay.baranwal@example.com" class="contact-link">
+                        <i class="ri-mail-line"></i>
+                        <span>baranwaltanmay16@gmail.com</span>
+                    </a>
+                    
+                    <a href="mailto:tanmay.baranwal@example.com" class="contact-link">
+                        <i class="ri-linkedin-box-fill"></i>
+                        <span>baranwaltanmay16@gmail.com</span>
+                    </a> -->
+
+                    <!-- <a href="tel:+919876543210" class="contact-link">
+                        <i>📱</i>
+                        <span>+91 7068818200</span>
+                    </a> -->
+                    <!-- <a href="#" class="contact-link">
+                        <i>📍</i>
+                        <span>Patna, Bihar, India</span>
+                    </a> -->
+                </div>
+            </div>
+            <!-- <div class="contact-form">
+                <form id="contactForm">
+                    <div class="form-group">
+                        <input type="text" class="form-control" placeholder="Your Name" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" class="form-control" placeholder="Your Email" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="text" class="form-control" placeholder="Subject">
+                    </div>
+                    <div class="form-group">
+                        <textarea class="form-control" placeholder="Your Message" required></textarea>
+                    </div>
+                    <button type="submit" class="form-submit">Send Message</button>
+                </form>
+            </div> -->
+        </div>
+    </div>
+</section>
+
+<footer>
+    <div class="container">
+        <div class="footer-content">
+            <div class="footer-logo">Tanmay Baranwal</div>
+            <!-- <div class="footer-links">
+                <a href="#home">Home</a>
+                <a href="#about">About</a>
+                <a href="#education">Education</a>
+                <a href="#skills">Skills</a>
+                <a href="#projects">Projects</a>
+                <a href="#contact">Contact</a> -->
+            </div>
+
+
+
+                <!-- <a href="#" class="social-link">
+                    <span>ig</span>
+                </a>
+            </div> -->
+            <p class="copyright">© 2025 Tanmay Baranwal. All rights reserved.</p>
+        </div>
+    </div>
+</footer>
+
+<script src="script.js"></script>
+   
+</body>
+</html>
